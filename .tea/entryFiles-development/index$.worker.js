@@ -40,6 +40,7 @@ require('../../pages/category/index/index?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf
 require('../../pages/mine/index/index?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
 require('../../pages/buycart/index/index?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
 require('../../pages/demo/index/index?hash=98124bfaf16014d3cca1024f66fd9f9fc8defdf5');
+require('../../pages/home/buyModel/buyModel?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
 }
 self.bootstrapApp ? self.bootstrapApp({ success }) : success();
 }

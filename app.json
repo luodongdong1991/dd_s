@@ -4,7 +4,8 @@
     "pages/category/index/index",
     "pages/mine/index/index",
     "pages/buycart/index/index",
-    "pages/demo/index/index"
+    "pages/demo/index/index",
+    "pages/home/buyModel/buyModel"
   ],
   "window": {
     "defaultTitle": "小程序",

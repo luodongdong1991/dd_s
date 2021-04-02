@@ -14,12 +14,8 @@ Page({
         minTitle:'新建验货需求'
       },
       {
-        title:'采购模块',
-        minTitle:'新建验货需求'
-      },
-      {
-        title:'采购模块',
-        minTitle:'新建验货需求'
+        title:'品质模块',
+        minTitle:'编辑验货报告'
       }
     ]
   },
