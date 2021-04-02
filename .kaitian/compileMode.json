@@ -1,0 +1,13 @@
+{
+  "current": 0,
+  "modes": [
+    {
+      "title": "home",
+      "page": "pages/home/index/index"
+    },
+    {
+      "title": "demo",
+      "page": "pages/demo/index/index"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/home/index/index",
+    "pages/category/index/index",
+    "pages/mine/index/index",
+    "pages/buycart/index/index",
+    "pages/demo/index/index"
+  ],
+  "window": {
+    "defaultTitle": "小程序",
+    "backgroundColor": "#F5F5F9",
+    "pullRefresh": true,
+    "allowsBounceVertical": "YES",
+    "supportColorScheme": "light"
+  },
+  "tabBar": {
+    "textColor": "#404040",
+    "selectedColor": "#e64340",
+    "backgroundColor": "#F5F5F9",
+    "items": [
+      {
+        "pagePath": "pages/home/index/index",
+        "icon": "images/nav/home-off.png",
+        "activeIcon": "images/nav/home-on.png",
+        "name": "home"
+      },
+      {
+        "pagePath": "pages/category/index/index",
+        "icon": "images/nav/order-off.png",
+        "activeIcon": "images/nav/order-on.png",
+        "name": "category"
+      },
+      {
+        "pagePath": "pages/demo/index/index",
+        "icon": "images/nav/fl-off.png",
+        "activeIcon": "images/nav/fl-on.png",
+        "name": "demo"
+      },
+      {
+        "pagePath": "pages/buycart/index/index",
+        "icon": "images/nav/cart-off.png",
+        "activeIcon": "images/nav/cart-on.png",
+        "name": "buycart"
+      },
+      {
+        "pagePath": "pages/mine/index/index",
+        "icon": "images/nav/my-off.png",
+        "activeIcon": "images/nav/my-on.png",
+        "name": "mine"
+      }
+    ]
+  },
+  "debug": "true"
+}

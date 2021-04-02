@@ -1,0 +1,9 @@
+<view>
+  <view catchTap="onClick">
+    New Component{{title}}
+  </view>
+  <view a:for="{{InputList}}" catchTap="onClick">   //渲染出从外部传到props再传到data的数据
+    {{item}}
+  </view>
+  <view></view>
+</view>

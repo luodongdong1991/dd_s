@@ -1,0 +1,7 @@
+{
+ "usingComponents":{
+    "your":"/components/tab2/tab2",
+    "pre-view":"/components/image/image",
+    "our_form":"/components/form/form"
+  } 
+}

@@ -1,0 +1,25 @@
+.swiper-item{
+  display: block;
+  height: 150px;
+}
+
+.margin-t {
+  margin-top: 24px;
+}
+.bc_blue{background-color: blue}
+.bc_yellow{background-color: yellow}
+.bc_red{background-color: red}
+/* list */
+.list{margin-top:40rpx;}
+.list .list_item{background:#fff;border-radius:4rpx;padding:20rpx;
+margin-bottom:20rpx;display:flex;justify-content: space-between;
+align-items:center;}
+.list .left{flex:4}
+.list .left .tt{
+  color:#333;
+}
+.list .left .min_tt{
+  color:#666;
+}
+.list .right{width:30rpx;}
+.list image{width:30rpx;height:30rpx;}

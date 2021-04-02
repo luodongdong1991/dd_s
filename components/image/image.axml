@@ -1,0 +1,3 @@
+<view>
+  <button catchTap="onImage">预览图片</button>
+</view>

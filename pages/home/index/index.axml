@@ -1,0 +1,30 @@
+<view class="pages">
+    <!--banner  -->
+    <view class="page-section-demo">
+      <swiper
+        style="height:150px"
+        class="demo-swiper"
+        indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}"
+        vertical="{{vertical}}"
+        interval="{{interval}}"
+        circular="{{circular}}"
+      >
+        <block a:for="{{background}}">
+          <swiper-item key="swiper-item-{{index}}">
+            <view class="swiper-item bc_{{item}}">aa</view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <!--list-->
+    <view class="list">
+      <view a:for='{{list}}' class="list_item box_shadow">
+        <view class="left">
+          <view class="tt">{{item.title}}</view>
+          <view class=""min_tt>{{item.minTitle}}</view>
+        </view>
+        <view class="right"><image src='/images/arrowright.png' mode="aspectFit"></view>
+      </view>
+    </view>
+</view>

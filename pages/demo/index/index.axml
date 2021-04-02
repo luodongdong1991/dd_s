@@ -1,0 +1,48 @@
+
+<import-sjs name='m1' from ='./index.sjs'/>
+<!--  -->
+<text class="iconfont shangdian" style="font-size:50rpx;color:red">0</text>
+
+<view>
+  <button type="primary" onTap="checkImage">查看图片</button>
+</view>
+<!-- 组件 -->
+<view>
+  <pre-view></pre-view>
+</view>
+<view>
+ 00 
+ <your InputArrayList="{{CounterPlusOne}}" title="{{title}}" onMultiChoiseReasult="onMultiChoiseReasult" />
+</view>
+<view>
+ {{m1.message}} --
+ {{m1.getMsg('999')}}
+</view>
+<view onTap="showMsg">
+  this is a blank page
+</view>
+<view onTap="changeText" data-op='996'>
+  {{ text }}
+</view>
+<!-- 修改item  a:for-item='a'
+
+使用a:for-item可以指定数组当前元素的变量名。
+
+使用a:for-index可以指定数组当前下标的变量名。
+ -->
+<view a:for='{{arr}}' a:key='index' a:for-item='content'>
+  {{ content.name }}
+</view>
+<view a:if="{{view == 'WEBVIEW'}}"> WEBVIEW </view>
+<view a:elif="{{view == 'APP'}}"> APP </view>
+<view a:else> dingtalk </view>
+<!-- 摸板及其使用； -->
+<template name="msgItem">
+  <view>
+    <text> {{index}}: {{msg}} </text>
+    <text> Time: {{time}} </text>
+  </view>
+</template>
+<template is="msgItem" data="{{...item}}"/>
+<!--zujian-->
+<!-- <tab2><tab2> -->

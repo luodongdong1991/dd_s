@@ -1,0 +1,13 @@
+<view>
+  <form onSubmit="onSubmit" onReset="onReset">
+    <view class="page-section">
+      <view class="page-section-title">Slider</view>
+      <view class="page-section-demo">
+        <slider value="80" name="slider" show-value />
+      </view>
+    </view>
+    <view>
+        <view><button type="primary" onTap="" form-type="submit">按钮</button></view>
+    </view>
+</form>
+</view>
