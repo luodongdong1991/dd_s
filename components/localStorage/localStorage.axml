@@ -1,0 +1,12 @@
+<view>
+  localStorage本地；
+  <button type="primary" onTap="setLocal" size='mini'>
+  set
+  </button>
+  <button type="ghost" onTap="getLocal" size='mini'>
+  get
+  </button>
+  <button type="warn" onTap="removeLocal" size='mini'>
+  remove
+  </button>
+</view>

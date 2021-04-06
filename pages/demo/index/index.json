@@ -2,6 +2,8 @@
  "usingComponents":{
     "your":"/components/tab2/tab2",
     "pre-view":"/components/image/image",
-    "our_form":"/components/form/form"
+    "our-form":"/components/form/form",
+    "local-storage":"/components/localStorage/localStorage",
+    "our-input":"/components/oInput/oInput"
   } 
 }

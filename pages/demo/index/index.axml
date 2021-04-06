@@ -1,8 +1,9 @@
 
 <import-sjs name='m1' from ='./index.sjs'/>
 <!--  -->
-<text class="iconfont shangdian" style="font-size:50rpx;color:red">0</text>
-
+<local-storage></local-storage>
+<our-input></our-input>
+<our-form></our-form>
 <view>
   <button type="primary" onTap="checkImage">查看图片</button>
 </view>
